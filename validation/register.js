@@ -22,7 +22,6 @@ module.exports = function validateRegisterInput(data) {
     }
 
     if (!Validator.isEmail(data.email)) {
-        console.log(data)
         console.log(data.email)
         console.log(Validator.isEmail(data.email))
         console.log(Validator.isEmail('foo@bar.com'))
